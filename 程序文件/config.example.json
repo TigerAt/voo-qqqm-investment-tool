@@ -1,0 +1,25 @@
+{
+  "active_plan": "independent_va_only",
+  "investment_mode": "va",
+  "budget_day": 2,
+  "backtest_execution_day": 10,
+  "va_plan": {
+    "start_month": "2026-10",
+    "initial_targets_usd": {
+      "VOO": "500",
+      "QQQM": "300"
+    },
+    "monthly_steps_usd": {
+      "VOO": "500",
+      "QQQM": "300"
+    },
+    "sell_if_above_target": false
+  },
+  "database_path": "data/investments.sqlite3",
+  "report_path": "reports/真实投资报告.html",
+  "va_backtest_output_dir": "va_backtest_results",
+  "generated_report_keep_count": 3,
+  "obsidian_vault_path": "~/Documents/Obsidian/投资理财",
+  "obsidian_subdir": "投资记录/VOO-QQQM",
+  "obsidian_sync_enabled": false
+}

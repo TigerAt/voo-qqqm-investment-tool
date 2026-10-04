@@ -1,0 +1,21 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+# Local settings, investment ledger, quotes, reports, and backups
+程序文件/config.json
+程序文件/config.json.*
+程序文件/data/
+程序文件/reports/
+程序文件/*backtest_results/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.zip
+*.tmp
